@@ -6,33 +6,18 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>Eracom, Lausanne</li>
-          <li>EAA, La Chaux-de-Fonds</li>
-          <li>2016–2020</li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          <li>
-            {% include icon-github.html username="coursweb" %}
-          </li>
-          
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-          <!-- <li>
-          	{% include icon-twitter.html username="wpgva" %}
-          </li> -->
-        </ul>
+        <p>{{ site.description }}</p>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <p>
+            Basé sur le cours donné à <a href="https://www.eracom.ch/" target="_blank">l’Eracom</a> (Lausanne),
+            à <a href="http://www.eaa-la-chaux-de-fonds.ch/" target="_blank">l’Ecole d’Art Appliqués de La Chaux-de-Fonds</a>,
+            ainsi que sur les modules de formation du <a href="http://collectifwp.ch/" target="_blank">Collectif WP (Genève)</a>.<br/>
+            Version originale du cours disponible sur <a href="https://github.com/cours-web/coursweb.github.io" target="_blank">Github</a>.
+        </p>
       </div>
+
     </div>
 
   </div>

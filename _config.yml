@@ -10,13 +10,13 @@ title: Cours Programmation Web
 email: ms@ms-studio.net
 description: > # this means to ignore newlines until "baseurl:"
   Un support de cours pour apprendre la programmation web.<br/>
-  Sujets: HTML, CSS, JS, WordPress, Git.<br/>
+  Sujets: HTML, CSS, Git.<br/>
   Licence des contenus: CC-BY-SA.
-# baseurl: "/cours-web" # the subpath of your site, e.g. /blog
-url: "https://cours-web.ch" # the base hostname & protocol for your site
-repository: cours-web/coursweb.github.io.
-twitter_username: 16kbit
-github_username:  ms-studio
+baseurl: "/web" # the subpath of your site, e.g. /blog
+url: "https://formation.hotentic.com" # the base hostname & protocol for your site
+repository: jeanbaptistevilain/coursweb.github.io.
+#twitter_username: 16kbit
+#github_username:  ms-studio
 
 # Build settings
 markdown: kramdown
@@ -46,20 +46,20 @@ chapters:
    url: media
  - title: Typographie
    url: typo
- - title: JavaScript
-   url: js
- - title: WordPress
-   url: wp
+# - title: JavaScript
+#   url: js
+# - title: WordPress
+#   url: wp
  - title: Git
    url: git
  - title: Outils
    url: outils
- - title: Figma
-   url: figma
- - title: Processus
-   url: processus
- - title: Newsletters
-   url: newsletters
+# - title: Figma
+#   url: figma
+# - title: Processus
+#   url: processus
+# - title: Newsletters
+#   url: newsletters
  - title: Divers
    url: divers
 
